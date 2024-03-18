@@ -21,6 +21,16 @@ df_modelo_entrenamiento = df[[ 'cat_elite',	'cat_limpieza',	'cat_ambiente',	'cat
 
 cosine_sim = cosine_similarity(df_modelo_entrenamiento, df_modelo_entrenamiento)
 
+st.markdown("### Instrucciones de uso:\n\n")
+st.write("Ingrese un correo válido")
+st.write("En caso de no estar en nuestra base de datos, se le dará una recomendación")
+st.write("Ejemplos de correos : jodi90@gmail.com, katie202@gmail.com, maria115@gmail.com")
+st.write(" ")
+st.write("  ")
+st.write("   ")
+st.write("   ")
+st.write("   ")
+
 def app():
 
         # Load the image and display it
