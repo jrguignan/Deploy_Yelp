@@ -47,7 +47,7 @@ def app():
   
 
     #st.markdown("<h2 style='text-align: center;'> Podrás encontrar los negocios de uñas que más se adapten a tus preferencias.</h2>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center;'> Nails Recomender 1.0</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'> Nails Recommender 1.0</h2>", unsafe_allow_html=True)
 
 
     correo = st.text_input("Coloca tu email, para darte una recomendación", key="query_input")
